@@ -6,6 +6,7 @@ var db_name=process.env.DATABASE_NAME
 var user=process.env.USER_NAME
 var password=process.env.PASSWORD_DB
 var host =process.env.HOST
+console.log(host)
   const connection = new Sequelize(db_name, user, password, {
    host:host,
     dialect: 'mysql',  
